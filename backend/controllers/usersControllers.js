@@ -122,6 +122,8 @@ const deleteUser = asyncHandler(async (req, res) => {
 
 });
 
+//TODO: add the controller for the user auth
+
 module.exports = {
   getAllUsers,
   createNewUser,
